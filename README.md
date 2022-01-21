@@ -30,6 +30,8 @@ exe化してませんので、コマンド叩いてください<br>
     
     \#実行
     python app.py
+    
+    \#resultファイルに結果が出力される
 
 ## License
 
