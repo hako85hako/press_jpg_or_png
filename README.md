@@ -11,9 +11,25 @@ exe化してませんので、コマンド叩いてください<br>
 手順は以下 "Usage" です
 
 ## Usage
-使い方。なるべく具体的に書く。サンプルも書く
-# git clone 
+    
+    \#git clone
+    git clone https://github.com/hako85hako/press_jpg_or_png.git
+    
+    \#フォルダが作成される
+    \#圧縮したい画像ファイルをtargetに格納
+    
+    \#docker
+    #コンテナをビルド
+    docker compose up -d --build
+    
+    \#コンテナに接続
+    docker compose exec python3 bash
 
+    \#フォルダ移動
+    cd source
+    
+    \#実行
+    python app.py
 
 ## License
 This software is released under the MIT License, see LICENSE.
