@@ -1,4 +1,7 @@
 
+#移動
+cd /Users/sakaiyuunin/Documents/Docker_Project/press_jpeg
+
 #コンテナをビルド
 docker compose up -d --build
 
